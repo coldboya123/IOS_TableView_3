@@ -15,6 +15,9 @@
 		A85D2ED9266514F100A64CC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85D2ED7266514F100A64CC3 /* LaunchScreen.storyboard */; };
 		A85D2EE4266514F100A64CC3 /* TableView_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85D2EE3266514F100A64CC3 /* TableView_3Tests.swift */; };
 		A85D2EEF266514F100A64CC3 /* TableView_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85D2EEE266514F100A64CC3 /* TableView_3UITests.swift */; };
+		A85D2EFD2665186A00A64CC3 /* Food_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85D2EFC2665186A00A64CC3 /* Food_TableViewCell.swift */; };
+		A85D2EFF266519AC00A64CC3 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85D2EFE266519AC00A64CC3 /* Food.swift */; };
+		A85D2F032665224E00A64CC3 /* SV_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85D2F022665224E00A64CC3 /* SV_TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		A85D2EEA266514F100A64CC3 /* TableView_3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableView_3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A85D2EEE266514F100A64CC3 /* TableView_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView_3UITests.swift; sourceTree = "<group>"; };
 		A85D2EF0266514F100A64CC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A85D2EFC2665186A00A64CC3 /* Food_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_TableViewCell.swift; sourceTree = "<group>"; };
+		A85D2EFE266519AC00A64CC3 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		A85D2F022665224E00A64CC3 /* SV_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SV_TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +110,11 @@
 				A85D2ED0266514EF00A64CC3 /* ViewController.swift */,
 				A85D2ED2266514EF00A64CC3 /* Main.storyboard */,
 				A85D2ED5266514F100A64CC3 /* Assets.xcassets */,
+				A85D2EFC2665186A00A64CC3 /* Food_TableViewCell.swift */,
+				A85D2F022665224E00A64CC3 /* SV_TableViewCell.swift */,
 				A85D2ED7266514F100A64CC3 /* LaunchScreen.storyboard */,
 				A85D2EDA266514F100A64CC3 /* Info.plist */,
+				A85D2EFE266519AC00A64CC3 /* Food.swift */,
 			);
 			path = TableView_3;
 			sourceTree = "<group>";
@@ -259,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A85D2F032665224E00A64CC3 /* SV_TableViewCell.swift in Sources */,
+				A85D2EFF266519AC00A64CC3 /* Food.swift in Sources */,
 				A85D2ED1266514EF00A64CC3 /* ViewController.swift in Sources */,
+				A85D2EFD2665186A00A64CC3 /* Food_TableViewCell.swift in Sources */,
 				A85D2ECD266514EF00A64CC3 /* AppDelegate.swift in Sources */,
 				A85D2ECF266514EF00A64CC3 /* SceneDelegate.swift in Sources */,
 			);
